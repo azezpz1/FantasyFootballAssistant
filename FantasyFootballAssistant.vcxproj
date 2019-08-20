@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CSVHandler.h" />
     <ClInclude Include="FantasyFootballAssistant.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
@@ -158,6 +159,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CSVHandler.cpp" />
     <ClCompile Include="FantasyFootballAssistant.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
